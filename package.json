@@ -4,11 +4,13 @@
   "description": "Simple Crud Server",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "nodemon server.js"
   },
   "author": "Angel Angeles",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2"
   },
   "devDependencies": {
